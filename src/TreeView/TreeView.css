@@ -1,0 +1,17 @@
+.TreeView {
+  cursor: default;
+}
+
+.TreeView-Item {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+
+.TreeView-Item__Parent {
+  cursor: pointer;
+}
+
+.TreeView-Item-Control {
+  flex-shrink: 0;
+}
