@@ -8,8 +8,16 @@
   align-items: center;
 }
 
+.TreeView-Item:not(.focused):hover {
+  background-color: rgba(0,50,150, .1);
+}
+
 .TreeView-Item__Parent {
   cursor: pointer;
+}
+
+.TreeView-Item.focused {
+  background-color: rgba(0,50,150, .2);
 }
 
 .TreeView-Item-Control {
